@@ -19,5 +19,5 @@ getgenv().animchanger = "your animation here"
 -- Vampire, Hero, cZombie, Cowboy, Patrol, Bold, feZombie, Princess, Popstar, OldSchool,
 -- Sneaky, Toy, Knight, Confident, Ghost, Elder, Levitation, Mage, Astronaut, Ninja, Werewolf, Cartoon, Pirate, Adidas
 -------
-loadstring(game:HttpGet(''))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tigerisaac/scripts/main/animexec'))()
 ```
