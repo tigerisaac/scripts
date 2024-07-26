@@ -11,4 +11,13 @@ TODO FOR THE FUTURE
 - learn enough lua to like be good at it idfk (it's a goal)
 - maybe emotes? (should be really easy)
 
-seeya bye
+## here's how to use the animations
+```lua
+getgenv().animchanger = "your animation here"
+-------
+-- (case sensitive, don't mess it up)
+-- Vampire, Hero, cZombie, Cowboy, Patrol, Bold, feZombie, Princess, Popstar, OldSchool,
+-- Sneaky, Toy, Knight, Confident, Ghost, Elder, Levitation, Mage, Astronaut, Ninja, Werewolf, Cartoon, Pirate, Adidas
+-------
+loadstring(game:HttpGet(''))()
+```

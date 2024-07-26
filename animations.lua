@@ -31,7 +31,7 @@ local types = {
         Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616104706"
         Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
     end,
-    ["ZombieClassic"] = function()
+    ["cZombie"] = function()
         Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
         Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
         walk = "http://www.roblox.com/asset/?id=616168032"
@@ -184,7 +184,7 @@ local types = {
         Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1148811837"
         Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1148863382"
     end,
-    ["ZombieFE"] = function()
+    ["feZombie"] = function()
         Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3489171152"
         Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3489171152"
         walk = "http://www.roblox.com/asset/?id=3489174223"

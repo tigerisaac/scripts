@@ -1,0 +1,11 @@
+if getgenv().animloaded then loadstring(game:HttpGet('https://raw.githubusercontent.com/tigerisaac/scripts/main/animations.lua',true))()
+else 
+    repeat task.wait() until game:IsLoaded()
+    game.Players.LocalPlayer.CharacterAdded:Connect(function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tigerisaac/scripts/main/animations.lua',true))()
+        print("set animation")
+    end)
+    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tigerisaac/scripts/main/animations.lua',true))()
+   getgenv().animloaded='loded'
+end
